@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ehrs-cluster"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ecs-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "ehrs-cluster"
+  description: "Testing"
+  tags: ["aws-ecs"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
+
+
